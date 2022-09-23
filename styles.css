@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@300&display=swap');
+
+
+:root {
+    --fundo: #FFFFFF;
+    --letra-logo: #3A404E;
+    --letra: #667085;
+    --font: 'Inter', sans-serif;
+    --vermelho: #8E2424;
+    --preto: #101828;
+    --terceira-cor: #98A2B3;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--letra);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--font);
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-bottom: 40px;
+}
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: center;
+    margin: 0 3rem;
+    font-size: 16px;
+    
+}
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    color: var(--letra-logo);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cabecalho__link {
+    color: var(--letra);
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+.cabecalho__item {
+    margin-left: 1rem;
+}
+
+.cabecalho__login {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cabecalho__linkk {
+    color: var(--fundo);
+    background-color: var(--vermelho);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    
+
+}
+
+/* INTRODUÇÃO*/
+
+
+.cabecalho__introducao {
+    text-align: center;
+}
+
+span {
+    
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+h1 {
+    color: #101828;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.cabecalho__introducao {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+/*Fim do cabeçalho*/
+/*Inicio das metricas*/
+
+.metricas-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 64px;
+    margin-top: 60px;
+    padding: 80px;
+}
+
+.numeros__metricas {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600px;
+}
+
+.paragrafos__metricas {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.metricas__descricao {
+    color: var(--letra);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+    
+}
+
+/*Fim das metricas*/
+/*Seção da procura de talentos*/
+
+.talentos__section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.talentos__paragrafo {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.talentos__section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+
+}
+
+.talentos__equipe {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--letra);
+    margin-bottom: 40px;
+}
+
+.reuniao {
+    padding: 3em;
+} 
+
+/*Fim dos Talentos*/
+/*Inicio da seção de vagas*/
+
+
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    text-indent: 26.5%;
+    margin-bottom: 3rem;
+    
+}
+
+.vaga h2 {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 20px;
+    text-indent: 25%;
+    margin-bottom: 3rem;
+}
+
+.titulo-vaga {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+    margin-bottom: 2rem;
+}
+.informacoes span{
+    color: var(--letra);
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+.informacoes :first-child{
+    margin-right: 15px;
+}
+
+.informacoes {
+    margin-bottom: 10%;
+}
+
+/*Fim da seção de vagas*/
+/*Começo da seção de Depoimentos*/
+
+.seção__depoimentos {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 20%;
+}
+
+.destaque__depoimentos {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+
+.titulo__depoimentos {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.foto__mulher {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+.nome__mulher {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.profissão__mulher {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*fim da seção de Depoimentos*/
+/*RODAPÉ PQP FINALMENTE*/
+.rodapé {
+    text-align: center;
+}
+
+.principal__rodape {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--preto);
+    margin-bottom: 20px;
+}
+
+.secundario__rodapé {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--letra);
+    margin-bottom: 4%;
+}
+
+.caixa__email {
+    display: flex;
+    margin-bottom: 3%;
+    display: inline-block;
+    
+    
+}
+
+.email {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 12rem;
+    padding: 1em;
+    margin-right: 1rem;
+    width: 20rem;
+    
+}
+
+.Cadastrar {
+    border-radius: 9px;
+    background-color: #8E2424;
+    padding: 15px;
+    color: #FFFFFF;
+    border: 1px solid;
+    width: 115px;
+}
+
+.direitos__autorais {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* FINAL DO RODAPÉ!!!!!!*/
